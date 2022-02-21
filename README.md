@@ -2,8 +2,10 @@
 
 目前用於第三個前測作業，載入訓練好的CNN權重，避免沒過99%
 
+將下列指令放入Test on held out data
+
 !rm -rf NYCU_HW
 
 !git clone https://github.com/Yuan-Chieh/NYCU_HW.git
 
-model = torch.load("./NYCU_HW/310605018_cnn.pt")
+net = torch.load("./NYCU_HW/310605018_cnn.pt")
